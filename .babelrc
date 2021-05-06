@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./app"
+        ],
+      "alias": {
+         "src": "./app",
+         "assets": "./assets",
+         "constants":"./app/constants",
+         "utils":"./app/utils",
+         "screens":"./app/screens",
+         "components":"./app/components",
+         "models":"./app/models",
+         "services":"./app/services",
+         "src/theme":"./app/theme",
+         "context":"./app/context"
+       }
+      } 
+    ] 
+  ]
+}

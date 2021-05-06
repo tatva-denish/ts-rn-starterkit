@@ -1,1 +1,1 @@
-# ts-rn-starterkit
+# Welcome to your new app!
