@@ -16,7 +16,7 @@ export class CharacterApi {
     try {
       // make the api call
       const response: ApiResponse<any> = await this.api.apisauce.get(
-        "https://raw.githubusercontent.com/infinitered/ignite/master/data/rick-and-morty.json",
+        "/infinitered/ignite/master/data/rick-and-morty.json",
         { amount: API_PAGE_SIZE },
       )
 
