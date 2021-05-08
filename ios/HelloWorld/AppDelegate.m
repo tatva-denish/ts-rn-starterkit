@@ -4,7 +4,6 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
-
 #ifdef FB_SONARKIT_ENABLED
 #import <FlipperKit/FlipperClient.h>
 #import <FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>
@@ -37,11 +36,11 @@ static void InitializeFlipper(UIApplication *application) {
                                                    moduleName:@"HelloWorld"
                                             initialProperties:nil];
 
-    if (@available(iOS 13.0, *)) {
-        rootView.backgroundColor = [UIColor systemBackgroundColor];
-    } else {
-        rootView.backgroundColor = [UIColor whiteColor];
-    }
+  if (@available(iOS 13.0, *)) {
+      rootView.backgroundColor = [UIColor systemBackgroundColor];
+  } else {
+      rootView.backgroundColor = [UIColor whiteColor];
+  }
 
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
   UIViewController *rootViewController = [UIViewController new];
