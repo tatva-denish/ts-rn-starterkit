@@ -4,7 +4,7 @@ import { presets } from "./wallpaper.presets"
 import { WallpaperProps } from "./wallpaper.props"
 import { flatten } from "ramda"
 
-const defaultImage = require("./bg.png")
+const defaultImage = require("./bg.jpg")
 
 /**
  * For your text displaying needs.

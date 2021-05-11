@@ -15,5 +15,8 @@ export interface WallpaperProps {
   /**
    * One of the different types of wallpaper presets.
    */
-  preset?: WallpaperPresets
+  preset?: WallpaperPresets,
+  /**
+   * One of the different types of wallpaper presets.
+   */
 }

@@ -3,7 +3,7 @@ import { View, Alert } from "react-native"
 import { storiesOf } from "@storybook/react-native"
 import { StoryScreen, Story, UseCase } from "../../../storybook/views"
 import { Header } from "./header"
-import { color } from "../../theme"
+import { color } from "@theme"
 
 declare let module
 

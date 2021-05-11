@@ -5,7 +5,7 @@ import * as React from "react"
 import { View, ViewStyle } from "react-native"
 import { storiesOf } from "@storybook/react-native"
 import { StoryScreen, Story, UseCase } from "../../../storybook/views"
-import { color } from "../../theme"
+import { color } from "@theme"
 import { Text } from "./text"
 
 declare let module

@@ -4,8 +4,8 @@ import { HeaderProps } from "./header.props"
 import { Button } from "../button/button"
 import { Text } from "../text/text"
 import { Icon } from "../icon/icon"
-import { spacing } from "../../theme"
-import { translate } from "../../i18n/"
+import { spacing } from "@theme"
+import { translate } from "@lang"
 
 // static styles
 const ROOT: ViewStyle = {
@@ -44,8 +44,8 @@ export function Header(props: HeaderProps) {
           <Icon icon={leftIcon} />
         </Button>
       ) : (
-        <View style={LEFT} />
-      )}
+          <View style={LEFT} />
+        )}
       <View style={TITLE_MIDDLE}>
         <Text style={[TITLE, titleStyle]} text={header} />
       </View>
@@ -54,8 +54,8 @@ export function Header(props: HeaderProps) {
           <Icon icon={rightIcon} />
         </Button>
       ) : (
-        <View style={RIGHT} />
-      )}
+          <View style={RIGHT} />
+        )}
     </View>
   )
 }
